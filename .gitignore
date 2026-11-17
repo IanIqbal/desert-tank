@@ -1,0 +1,40 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj*
+*.code-workspace
+
+# Unreal generated / build output
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Compiled files
+*.slo
+*.lo
+*.o
+*.obj
+*.pch
+*.dll
+*.dylib
+*.so
+*.exe
+*.pdb
+*.ipa
+*.app
+
+# Unreal misc
+*.uasset.bak
+.ignore
