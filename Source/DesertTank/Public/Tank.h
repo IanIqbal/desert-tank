@@ -37,11 +37,11 @@ public:
 	TObjectPtr<UBoxComponent> BoxCollision;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	TObjectPtr<UBoxComponent> TankMesh;
+	TObjectPtr<USkeletalMeshComponent> TankMesh;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	TObjectPtr<UBoxComponent> SpringArm;
+	TObjectPtr<USpringArmComponent> SpringArm;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	TObjectPtr<UBoxComponent> Camera;
+	TObjectPtr<UCameraComponent> Camera;
 };
